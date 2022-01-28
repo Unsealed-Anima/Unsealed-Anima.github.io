@@ -67,35 +67,39 @@
      </style>
      
     <body>
-        <div>
+        <!-- All content goes here -->
+        <div id="all-contents">
             <nav>
-                <h1> Anima Gamepage </h1>
+                <h1> Anima Webpage </h1>
                 <ul>
-                    <li>
+                    <li id="nav-ul">
                         <a href="index.html"> Home </a>
                     </li>
-                    <li>
+                    <li id="nav-li">
                         <a href="portfolio.html"> Anime </a>
                     </li>
                 </ul>
             </nav>
 
             <main>
-                
-                <div><img src="data:image/jpeg;base64,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" alt="">
+                <!-- Sidebar section -->
+                <div class="sidebar">
+                    <img src="https://www.hollywoodreporter.com/wp-content/uploads/2018/09/coming_to_netflix_in_october_2018-_the_seven_deadly_sins-_revival_of_the_commandments-publicity_-production_still-_h_2018.jpg">
+                </div>
+                <!-- Content section -->
                     <h2> Damion Roberts </h2>
                     <p> Student at SPHS </p>
-                <div>
-                    <h3> Interests </h3>
-                        <ul>
-                            <li> Gaming </li>
-                            <li> Sleeping
-                            </li>
-                            <li>
-                                Anime
-                            </li>
-                        </ul>
-                </div>
+                    <!-- Interests section -->
+                    <div>
+                        <h3> Interests </h3>
+                        <div>
+                            <ul>
+                                <li> Gaming </li>
+                                <li> Sleeping </li>
+                                <li> Anime </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div> 
                 
                 
