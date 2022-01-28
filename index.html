@@ -1,112 +1,104 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Anima Website</title>
+        <title> Damion's Website </title>
+        <style>
+            body {
+                background: rgb(125, 198, 205);
+                color: rgb(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+               margin: 0 auto;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
     </head>
-    <style>
-        body {
-            background: rgb(125, 198, 205);
-            color: rgb(45, 45, 45);
-            padding: 10px;
-            font-family: arial;
-        }
-        #all-contents {
-          max-width: 800px;
-            margin: auto;
-        }
-     
-        /* navigation menu */
-        nav {
-            background: rgb(239, 80, 41);
-           margin: 0 auto;
-            display: flex;
-            padding: 10px;
-        }
-        h1 {
-            display: flex;
-            align-items: center;
-            color: white;
-            flex: 1;
-            margin: 0;
-        }
-        #nav-ul {
-            list-style-image: none;
-        }
-        .nav-li {
-            display: inline-block;
-            padding: 0 10px;
-        }
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
-     
-        /* main container area beneath menu */
-        main {
-            background: rgb(245, 238, 219);
-            display: flex;
-        }
-        .sidebar {
-            margin-right: 25px;
-            padding: 10px;
-        }
-        .sidebar-img {
-            width: 200px;
-        }
-        .content {
-            flex: 1;
-            padding: 15px;
-        }
-        #interests {
-            border: 4px silver ridge;
-            padding: 8px;
-        }
-        h2, h3 {
-            margin: 0px;
-        }
-     </style>
-     
     <body>
         <!-- All content goes here -->
         <div id="all-contents">
             <nav>
-                <h1> Anima Webpage </h1>
+                <h1> Damion's Website </h1>
                 <ul>
                     <li id="nav-ul">
                         <a href="index.html"> Home </a>
                     </li>
                     <li id="nav-li">
-                        <a href="portfolio.html"> Anime </a>
+                        <a href="portfolio.html"> Portfolio </a>
                     </li>
                 </ul>
             </nav>
 
             <main>
                 <!-- Sidebar section -->
-                <div class="sidebar">
-                    <img src="https://www.hollywoodreporter.com/wp-content/uploads/2018/09/coming_to_netflix_in_october_2018-_the_seven_deadly_sins-_revival_of_the_commandments-publicity_-production_still-_h_2018.jpg">
+                <div>
+                    <img class="sidebar-img" src="https://www.hollywoodreporter.com/wp-content/uploads/2018/09/coming_to_netflix_in_october_2018-_the_seven_deadly_sins-_revival_of_the_commandments-publicity_-production_still-_h_2018.jpg">
                 </div>
                 <!-- Content section -->
+                <div>
                     <h2> Damion Roberts </h2>
                     <p> Student at SPHS </p>
                     <!-- Interests section -->
-                    <div>
-                        <h3> Interests </h3>
-                        <div>
-                            <ul>
-                                <li> Gaming </li>
-                                <li> Sleeping </li>
-                                <li> Anime </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> 
-                
-                
                 <div>
-
+                    <h3> Interests </h3>
+                        <ul>
+                            <li> Gaming </li>
+                            <li> Sleeping </li>
+                            <li> Anime </li>
+                        </ul>
                 </div>
-
+                </div> 
             </main>
         </div>
     </body>
