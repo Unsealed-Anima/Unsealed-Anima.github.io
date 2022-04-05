@@ -35,7 +35,7 @@ var init = function (window) {
         // TODO 3 / 8 : Call the drawCircle() function 
         var loopsCompleted = 0; 
         while (loopsCompleted < 100) {
-            drawCircle();
+            drawCircle()
             loopsCompleted++;
         }
         ////////////////////////////////////////////////////////////
@@ -60,7 +60,7 @@ var init = function (window) {
                 physikz.updatePosition(eachCircle);
                 game.checkCirclePosition(circles[i]);
              }
-    
+            }
         /* 
         This Function should check the position of a circle that is passed to the 
         Function. If that circle drifts off the screen, this Function should move
