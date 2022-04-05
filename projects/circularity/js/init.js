@@ -58,7 +58,7 @@ var init = function (window) {
             for (var i = 0; i < circles.length; i++) {
                 var eachCircle = circles[i];
                 physikz.updatePosition(eachCircle);
-                game.checkCirclePosition;
+                game.checkCirclePosition(circles[i]);
              }
     
         /* 
@@ -74,13 +74,13 @@ var init = function (window) {
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
-            if ( circle.x < 0) {
-                circle.x = 0;
+            if ( circle.x < 0) { 
+                circle.x = canvas.width; //should be reassiging circle.x on the right side of screen (0 is incorrect value)
             }
             if ( circle.y < 0) {
-                circle.y = 0;
+                circle.y = canvas.height;//should be reassiging circle.y on the top side of screen (0 is incorrect value)
             }
-            if ( circle.y > canvas.width ) {
+            if ( circle.y > canvas.height ) {
                 circle.y = 0;
             }
 
